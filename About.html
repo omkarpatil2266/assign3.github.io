@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        .container{
+            max-width: 1200px;
+            width: 90%;
+            margin: auto;
+        }
+        .navbar{
+            position: fixed;
+            width: 100%;
+            background: #6484C1;
+            color: white;
+            opacity: 0.85;
+            z-index: 100;
+        }
+        .navbar-container{
+            display: flex;
+            justify-content: space-between;
+            height: 64px;
+            align-items: center;
+        }
+
+        .menu-items{
+            order: 2;
+            display: flex;
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            background-color:#DB3333;
+            border-radius: 50%;
+        }
+        .menu-items li{
+            list-style: none;
+            margin-left: 1.5rem;
+            font-size: 1.3rem;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        img{
+            position: absolute;
+            width: 580px;
+            height: 360px;
+            left: 155px;
+            top: 138px;
+            border-radius: 25px;
+        }
+        .image2{
+            position: absolute;
+            width: 590px;
+            height: 340px;
+            left: 750px;
+            top: 354px;
+            border-radius: 25px;
+        }
+        .heading{
+            position: absolute;
+            width: 177px;
+            height: 48px;
+            left: 834px;
+            top: 170px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        p{
+            position: absolute;
+            width: 471px;
+            height: 203px;
+            left: 155px;
+            top: 480px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <h1 class="logo"></h1>
+        </div>
+    </nav>
+    <img src="3.jpg" alt="">
+    <img class="image2" src="1.jpg" alt="">
+    <h1 class="heading">About Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet justo sagittis, efficitur nunc ac, accumsan massa. Pellentesque non lectus mi. Praesent ullamcorper congue tellus, quis luctus nulla porta ve</p>
+</body>
+</html>

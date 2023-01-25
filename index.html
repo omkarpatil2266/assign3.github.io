@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .container{
+            max-width: 1200px;
+            width: 90%;
+            margin: auto;
+        }
+        .navbar{
+            position: fixed;
+            width: 100%;
+            background: #6484C1;
+            color: white;
+            opacity: 0.85;
+            z-index: 100;
+        }
+        .navbar-container{
+            display: flex;
+            justify-content: space-between;
+            height: 64px;
+            align-items: center;
+        }
+
+        .menu-items{
+            order: 2;
+            display: flex;
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            background-color:#DB3333;
+            border-radius: 50%;
+        }
+        .menu-items li{
+            list-style: none;
+            margin-left: 1.5rem;
+            font-size: 1.3rem;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        img{
+            position: absolute;
+            width: 633px;
+            height: 526px;
+            left: 62px;
+            top: 167px;
+            border-radius: 25px;
+        }
+        .heading{
+            position: absolute;
+            width: 274px;
+            height: 96px;
+            left: 815px;
+            top: 267px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        .h2{
+            position: absolute;
+            width: 297px;
+            height: 24px;
+            left: 815px;
+            top: 416px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        button{
+            position: absolute;
+            width: 274px;
+            height: 80px;
+            left: 815px;
+            top: 506px;
+            background: #DE6F30;
+            border-radius: 30px;
+            border: #DE6F30;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <ul class="menu-items">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <h1 class="logo"></h1>
+        </div>
+    </nav>
+    <img src="2.jpg" alt="">
+    <h1 class="heading">Eat From Best Restaurants...</h1>
+    <h2 class="h2">Once you try it, you will love it.</h2>
+    <button>Explore Now</button>
+</body>
+</html>
